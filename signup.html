@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <title>Login or Sign up!</title>
+    <br><br><br><br><br><br><br><br><br>
+    <style>
+      html{
+
+             background: url(wallpaper3.jpg) no-repeat center fixed; 
+        background-size: cover;
+     
+      }
+
+
+      input[type=email],input[type=text], input[type=password] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 40px;
+  display:initial;
+  border: 1px solid #ccc;
+  box-sizing:content-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 10px;
+  margin: 6px 0;
+  border:outset;
+  cursor: pointer;
+  width: 20%;
+  height: 10%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 45px;
+  background-color: #f44336;
+  margin: 10px 10px; 
+}
+
+
+.container {
+  padding: 15px;
+  border:medium;
+  width: 40%;
+  background-color: #F589A6;
+  opacity: 0.8;
+
+
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+@media screen and (max-width: 100px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+ 
+}
+
+      div {
+          width: 40%;
+          height: 100%;
+    font-family:'Segoe UI';
+    font-size: 10pt; 
+    text-shadow: 3px 3px 5px #154660;
+  border: 4px #267A65;
+  background-color:#D32151;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  opacity:0.8;
+ 
+
+}
+
+
+</style>
+<body>
+   <center>
+          
+<div><font size="18pt" color="black">Sign up</font>
+  <br><br>
+  <font size="3pt" color="black">Already have an account? 
+    <a href="login.html" style="color: black" >Log in!</a>
+    </font>
+</div> 
+
+
+
+  <div class="container";>
+   <font size="4pt" color="black"><b>Username</b></font></label> 
+    <input type="text" placeholder="Enter Username" name="uname" required><br>
+    <label for="fname"><font size="4pt" color="black"><b>First Name</b></font></label>
+    <input type="text" placeholder="Enter First Name" name="fname" required><br>
+    <label for="lname"><font size="4pt" color="black"><b>Last Name</b></font></label>
+    <input type="text" placeholder="Enter Last name" name="lname" required><br>
+    <label for="ename"><font size="4pt" color="black"><b>E-mail Add</b></font></label>
+    <input type="email" placeholder="Enter E-mail" name="ename" required><br>
+
+  <br>  <label for="psw"><font size="4pt" color="black"><b>Password</b></font></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+    <button type="submit"><a href="../index.html" style="color:black">Sign up</a></button>
+
+    <label>
+     <br> <input type="checkbox" checked="checked" name="remember"><font color="black"> Remember me</font>
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1 height: 100%;">
+    <button type="button" class="cancelbtn">Cancel</button>
+   <p><a href="../index.html" style="color:black"> Go back to homepage</a></p> 
+  </div>
+</form>
+
+<div class="footer";>
+   
+    <p>© 2018 PamperMNL All Rights Reserved.</p>
+  </div></center> 
+</body>
+</html>

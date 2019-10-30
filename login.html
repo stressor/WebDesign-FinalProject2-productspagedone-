@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login or Sign up!</title>
+    <br><br><br><br><br><br><br><br><br>
+    <style>
+    html {
+        background: url(../FinalProject_EComWeb/assets/wallpaper4.jpg) no-repeat center fixed; 
+        background-size: cover;
+      }
+     
+
+     input[type=text], input[type=password] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 4px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing:border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 10px;
+  margin: 6px 0;
+  border:outset;
+  cursor: pointer;
+  width: 15%;
+  height: 10%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  background-color: #f44336;
+}
+
+
+.container {
+  padding: 15px;
+  opacity: 0.8;
+  background-color: #F589A6;
+}
+
+
+
+
+
+      div {
+          width: 35%;
+          
+    font-family:'Segoe UI';
+    font-size: 10pt; 
+    text-shadow: 3px 3px 5px #154660;
+  border: 4px #267A65;
+  background-color:#D32151;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  opacity:0.8;
+ 
+
+}
+
+
+@keyframes example {
+  from {background-color: rgb(26, 56, 49);}
+
+}
+
+</style>
+
+</head>
+<body>
+   <center>
+          
+<div><font size="15pt" color="white">Login or Sign up</font>
+<br><br>
+<font size="3pt" color="white"> New here? 
+<a href="signup.html" style="color: white ">Sign up!</a>
+</font></div> 
+
+
+
+  <div class="container">
+    <label for="uname"><font size="3pt" color="white"><b>Username</b></font></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+  <br>  <label for="psw"><font size="3pt" color="white"><b>Password</b></font></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        <label>
+        <br> <input type="checkbox" checked="checked" name="remember"> <font color="black">Remember me</font>
+        <br>
+        <br>
+        </label>
+        <label>
+            <p style="text-align: center;"><a href="#" style="color:black">Forgot password?</a></p>
+            <p><a href="index.html" style="color:black"> Go back to homepage</a></p>
+            <br>
+            <br>
+        </label>
+        <button type="button" class="btn btn-login"><a href="index.html" style="color:black">Login</a></button>
+        <button type="button" class="cancelbtn"><center>Cancel</center></button>
+        
+  </div>
+
+  
+</form>
+</center> 
+
+</body>
+</html>
